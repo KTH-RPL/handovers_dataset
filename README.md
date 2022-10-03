@@ -1,7 +1,9 @@
 # Dataset
 Dataset of Human Human Handovers
 
-A total of 13 participant pairs (26 participants involved). For each pair, they were assigned participant 1 and participant 2. Experimentation done in sets of approximately 9 minutes each. We had three experimental settings:
+A total of 13 participant pairs (26 participants involved). For each pair, they were assigned participant 1 and participant 2. The baton was transferred to and fro between them. The baton has 2 6D Force/Torque sensors on sides for recording the grip forces and one sensor in between for interaction force. The particpants wear motion capture suits (MoCap) and the experiment occured in a MoCap room. The upeer body movement and the baton pose is tracked.
+
+The Experimentation done in sets of approximately 9 minutes each. We had three experimental settings:
 1. Setting1- Normal baton transfer - 0.8 kg baton , Set 1 and Set 2
 2. Setting2- Heavy baton transfer - 1.8 kg baton , Set 3 and Set 4
 3. Setting3- Giver vision impairment with normal baton - 0.8 kg, Set 5 and Set 6
@@ -18,12 +20,21 @@ Each handover folder has 30 .csv files, with 801 rows implying the saved duratio
 5-17. Giver upper body skeletal representation- pose of 13 individual frames
 18-30 Taker upper body skeletal representation- pose of 13 individual frames
 
-
+Above can be seen in the handover_Sample folder provided which has data of a sample handover.
 
 
 Please note the transformation in forces done for the interaction sensor for the reverse_handvoers case, based on observed data from sensor:
-1. F_x = -1*F_x_int_measured
-2. F_y = -1*F_y_int_measured
-3. F_z = F_z_int_measured
+1. Fx = -1*Fx_int_measured
+2. Fy = -1*Fy_int_measured
+3. Fz = Fz_int_measured
 
-The F/T sensors from Onrobots
+The F/T HEX sensors from Onrobots : https://onrobot.com/en/products/hex-6-axis-force-torque-sensor
+Datasheet: https://onrobot.com/sites/default/files/documents/Datasheet_HEX_QC_v1.3_EN.pdf
+
+
+The MoCap setup from Motive: https://optitrack.com/
+The setup used:
+Software- MOTIVE 3.0
+Cameras-
+8x PrimeX13 Cameras (along the sides of the room)
+4x PrimeX13W Wide-angle Cameras (in the corners of the room)

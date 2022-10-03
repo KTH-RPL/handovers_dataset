@@ -29,7 +29,7 @@ Each handover folder has 30 .csv files, with 801 rows implying the saved duratio
 5. 5-17. Giver upper body skeletal representation- pose of 13 individual frames
 6. 18-30 Taker upper body skeletal representation- pose of 13 individual frames
 
-Above can be seen in the handover_Sample folder provided which has data of a sample handover.
+Above can be seen in the handover_Sample folder provided which has data of a sample handover. The grip forces are given by -Fz from giver/taker wrench.
 
 
 Please note the transformation in forces done for the interaction sensor for the reverse_handvoers case, based on observed data from sensor:

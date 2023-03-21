@@ -1,4 +1,4 @@
-# Dataset
+# Dataset- Handovers
 Dataset of Human Human Handovers
 
 A total of 13 participant pairs (26 participants involved). For each pair, they were assigned participant 1 and participant 2. The baton was transferred to and fro between them. The baton has 2 6D Force/Torque sensors on sides for recording the grip forces and one sensor in between for interaction force. The particpants wear motion capture suits (MoCap) and the experiment occured in a MoCap room. The upeer body movement and the baton pose is tracked.

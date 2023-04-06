@@ -1,5 +1,6 @@
 # Dataset- Handovers
 Dataset of Human Human Handovers
+![Handover_human_human_experimentation](https://user-images.githubusercontent.com/19911432/230441574-1e8edb41-a462-4c59-a0ca-970653c5f2cf.jpg)
 
 A total of 13 participant pairs (26 participants involved). For each pair, they were assigned participant 1 and participant 2. The baton was transferred to and fro between them. The baton has 2 6D Force/Torque sensors on sides for recording the grip forces and one sensor in between for interaction force. The particpants wear motion capture suits (MoCap) and the experiment occured in a MoCap room. The upeer body movement and the baton pose is tracked.
 
@@ -41,7 +42,11 @@ Above can be seen in the handover_Sample folder provided which has data of a sam
 Please note the transformation in forces done for the interaction sensor for the reverse_handvoers case, based on observed data from sensor:
 1. Fx = -1*Fx_int_measured
 2. Fy = -1*Fy_int_measured
-3. Fz = Fz_int_measured
+3. Fz = -1*Fz_int_measured
+4. Tx = -1*Tx_int_measured
+5. Ty = -1*Ty_int_measured
+6. Tz = -1*Tz_int_measured
+
 
 The F/T HEX sensors from Onrobots : https://onrobot.com/en/products/hex-6-axis-force-torque-sensor
 Datasheet: https://onrobot.com/sites/default/files/documents/Datasheet_HEX_QC_v1.3_EN.pdf

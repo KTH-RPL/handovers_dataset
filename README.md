@@ -1,4 +1,4 @@
-# Dataset- Handovers
+# Dataset - Handovers
 Dataset of Human Human Handovers
 ![Handover_human_human_experimentation](https://user-images.githubusercontent.com/19911432/230441574-1e8edb41-a462-4c59-a0ca-970653c5f2cf.jpg)
 
@@ -55,7 +55,7 @@ Each handover folder has 30 .csv files, with 801 rows implying the saved duratio
 Above can be seen in the handover_Sample folder provided which has data of a sample handover. The grip forces are given by -Fz from giver/taker wrench.
 
 By default, the interaction-force/torque sensor is aligned from participant 1 towards participant 2, i.e. the participant 1 acting as giver and participant 2 as the taker.
-[baton_with_axis](https://user-images.githubusercontent.com/19911432/231158939-c5be6d45-4681-4ff5-aff6-8c8fe5c76c93.jpg)
+(See Figure [Interaction sensor with axis](https://user-images.githubusercontent.com/19911432/231158939-c5be6d45-4681-4ff5-aff6-8c8fe5c76c93.jpg))
 
 Please note the transformation in forces done for the interaction sensor for the reverse_handovers case, based on observed data from sensor:
 1. Fx = -1*Fx_int_measured

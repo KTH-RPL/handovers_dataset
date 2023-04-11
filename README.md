@@ -1,6 +1,8 @@
-# Dataset- Handovers
+# Dataset - Handovers
 Dataset of Human Human Handovers
 ![Handover_human_human_experimentation](https://user-images.githubusercontent.com/19911432/230441574-1e8edb41-a462-4c59-a0ca-970653c5f2cf.jpg)
+
+Reference Article: https://doi.org/10.48550/arXiv.2304.02154
 
 A total of 13 participant pairs (26 participants involved). For each pair, they were assigned participant 1 and participant 2. The baton was transferred to and fro between them. The baton has 2 6D Force/Torque sensors on sides for recording the grip forces and one sensor in between for interaction force. The particpants wear motion capture suits (MoCap) and the experiment occured in a MoCap room. The upeer body movement and the baton pose is tracked.
 
@@ -23,9 +25,23 @@ The data set is provided for each participant pair for each settting and corresp
 
 **Pair 5 : Set1 Set3 Set5 Set2 Set6 Set4**
 
+**Pair 6 : Set1 Set3 Set5 Set2 Set6 Set4**
+
+**Pair 7 : Set1 Set3 Set2 Set5 Set4 Set6**
+
+**Pair 8 : Set1 Set3 Set5 Set2 Set6 Set4**
+
+**Pair 9 : Set1 Set5 Set2 Set3 Set6 Set4**
+
+**Pair 10 : Set1 Set3 Set2 Set5 Set4 Set6**
+
+**Pair 11 : Set1 Set3 Set5 Set2 Set6 Set4**
+
+**Pair 12 : Set1 Set5 Set2 Set3 Set6 Set4**
+
+**Pair 13 : Set1 Set3 Set5 Set2 Set6 Set4**
 
 Each Set data has 2 zipped folders: 'handovers' and 'handovers_reverse'. The 'handovers' folder contains all recorded and segmented handovers as separate folders when participant 1 acts as giver and passed the baton to participant 2, who acted as taker. The 'handovers_reverse' contains all handovers when participant 2 acted as giver and participant 1 as taker. This is done for purely analytical purposes. 
-
 
 
 Each handover folder has 30 .csv files, with 801 rows implying the saved duration (@120 Hz = 6.675 seconds) of the handover representing:
@@ -38,8 +54,10 @@ Each handover folder has 30 .csv files, with 801 rows implying the saved duratio
 
 Above can be seen in the handover_Sample folder provided which has data of a sample handover. The grip forces are given by -Fz from giver/taker wrench.
 
+By default, the interaction-force/torque sensor is aligned from participant 1 towards participant 2, i.e. the participant 1 acting as giver and participant 2 as the taker ('handovers' folders).
+(See Figure [Interaction sensor with axis](https://user-images.githubusercontent.com/19911432/231158939-c5be6d45-4681-4ff5-aff6-8c8fe5c76c93.jpg))
 
-Please note the transformation in forces done for the interaction sensor for the reverse_handvoers case, based on observed data from sensor:
+Please note the transformation in forces done for the interaction sensor for the 'reverse_handovers' case, based on observed data from sensor:
 1. Fx = -1*Fx_int_measured
 2. Fy = -1*Fy_int_measured
 3. Fz = -1*Fz_int_measured

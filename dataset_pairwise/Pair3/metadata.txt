@@ -1,0 +1,6 @@
+MetaData Pair3
+
+Participant 1: Male, Age 25, Right-Handed, Height 177cm
+
+Participant 2: Male, Age 22, Right-Handed, Height 180cm
+

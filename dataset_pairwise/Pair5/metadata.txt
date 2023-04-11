@@ -1,0 +1,6 @@
+MetaData Pair5
+
+Participant 1: Female, Age 23, Right-Handed, Height 161cm
+
+Participant 2: Female, Age 22, Right-Handed, Height 160cm
+

@@ -14,18 +14,29 @@ The data set is provided for each participant pair for each settting and corresp
 **Order** of sets in experimentation for:
 
 **Pair 1 : Set1 Set3 Set5 Set2 Set4 Set6**
+
 **Pair 2 : Set1 Set3 Set2 Set5 Set4 Set6**
+
 **Pair 3 : Set1 Set5 Set2 Set3 Set6 Set4**
+
 **Pair 4 : Set1 Set3 Set2 Set5 Set4 Set6**
+
 **Pair 5 : Set1 Set3 Set5 Set2 Set6 Set4**
 
 **Pair 6 : Set1 Set3 Set5 Set2 Set6 Set4**
+
 **Pair 7 : Set1 Set3 Set2 Set5 Set4 Set6**
+
 **Pair 8 : Set1 Set3 Set5 Set2 Set6 Set4**
+
 **Pair 9 : Set1 Set5 Set2 Set3 Set6 Set4**
+
 **Pair 10 : Set1 Set3 Set2 Set5 Set4 Set6**
+
 **Pair 11 : Set1 Set3 Set5 Set2 Set6 Set4**
+
 **Pair 12 : Set1 Set5 Set2 Set3 Set6 Set4**
+
 **Pair 13 : Set1 Set3 Set5 Set2 Set6 Set4**
 
 Each Set data has 2 zipped folders: 'handovers' and 'handovers_reverse'. The 'handovers' folder contains all recorded and segmented handovers as separate folders when participant 1 acts as giver and passed the baton to participant 2, who acted as taker. The 'handovers_reverse' contains all handovers when participant 2 acted as giver and participant 1 as taker. This is done for purely analytical purposes. 

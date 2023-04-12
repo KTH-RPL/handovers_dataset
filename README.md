@@ -76,3 +76,14 @@ Software- MOTIVE 3.0
 Cameras-
 8x PrimeX13 Cameras (along the sides of the room)
 4x PrimeX13W Wide-angle Cameras (in the corners of the room)
+
+## Citation
+Please use:
+```
+@article{khanna2023multimodal,
+      title={A Multimodal Data Set of Human Handovers with Design Implications for Human-Robot Handovers}, 
+      author={Parag Khanna and Mårten Björkman and Christian Smith},
+      year={2023},
+  journal={arXiv preprint arXiv:2304.02154}
+}
+```

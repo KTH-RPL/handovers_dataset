@@ -77,13 +77,23 @@ Cameras-
 8x PrimeX13 Cameras (along the sides of the room)
 4x PrimeX13W Wide-angle Cameras (in the corners of the room)
 
+## Related Article
+"A Multimodal Data Set of Human Handovers with Design Implications for Human-Robot Handovers," by Parag Khanna et al in IEEE RO-MAN (IEEE International Conference on Robot and Human Interactive Communication), 2023
+
 ## Citation
 Please use:
 ```
-@article{khanna2023multimodal,
-      title={A Multimodal Data Set of Human Handovers with Design Implications for Human-Robot Handovers}, 
-      author={Parag Khanna and Mårten Björkman and Christian Smith},
-      year={2023},
-  journal={arXiv preprint arXiv:2304.02154}
-}
+P. Khanna, M. Björkman and C. Smith, "A Multimodal Data Set of Human Handovers with Design Implications for Human-Robot Handovers," 2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), Busan, Korea, Republic of, 2023, pp. 1843-1850, doi: 10.1109/RO-MAN57019.2023.10309537.
+```
+
+```
+@INPROCEEDINGS{10309537,
+  author={Khanna, Parag and Björkman, Mårten and Smith, Christian},
+  booktitle={2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)}, 
+  title={A Multimodal Data Set of Human Handovers with Design Implications for Human-Robot Handovers}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1843-1850},
+  doi={10.1109/RO-MAN57019
 ```
